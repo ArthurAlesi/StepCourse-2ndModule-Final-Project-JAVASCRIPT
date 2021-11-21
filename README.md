@@ -2,10 +2,15 @@
  This is my final project from Step Computer Academy Course developed with Javascript, Html and CSS
  
  <hr>
-#  just click <a href ="https://arthuralesi.github.io/StepCourse-2ndModule-Final-Project-JAVASCRIPT/" >RIGHT HERE</a>  to check this project on a web page or click on the link bellow <br>
+<h2> just click <a target="_blank" href ="https://arthuralesi.github.io/StepCourse-2ndModule-Final-Project-JAVASCRIPT/" >RIGHT HERE</a>  to check this project on a web page or click on the link bellow </h2>
 https://arthuralesi.github.io/StepCourse-2ndModule-Final-Project-JAVASCRIPT/
-<hr>
+
+
+<br>
+<br>
+
 ## Contextualizing
+
 Step Computer Academy is a presencial course having filials all around the glove  <br>
 Each module lasts 6 months and We studie a specific subject   <br>
 At this module, I have studied Javscript after studing Html/CSS.  <br>
@@ -13,6 +18,8 @@ This is a simple solution. I haven't learned how to use cookies, servers or sess
 So I just simulate a login. You can enter it with whatever "nickname" you want and put anything as a password too.  <br>
 Then it will take you to another page built in javascript. It simultes a Shopping Cart. You can dynamicaly choose the items and the finish your order.
 
+ 
+<br>
 ### 1st You can choose whatever you want as a name
 <p>
  I put "Arthur" as a exemple. But it's just a test
