@@ -1,6 +1,10 @@
 # StepCourse-2ndModule-Final-Project-JAVASCRIPT
  This is my final project from Step Computer Academy Course developed with Javascript, Html and CSS
-
+ 
+ <hr>
+#  just click <a href ="https://arthuralesi.github.io/StepCourse-2ndModule-Final-Project-JAVASCRIPT/" >RIGHT HERE</a>  to check this project on a web page or click on the link bellow <br>
+https://arthuralesi.github.io/StepCourse-2ndModule-Final-Project-JAVASCRIPT/
+<hr>
 ## Contextualizing
 Step Computer Academy is a presencial course having filials all around the glove  <br>
 Each module lasts 6 months and We studie a specific subject   <br>
