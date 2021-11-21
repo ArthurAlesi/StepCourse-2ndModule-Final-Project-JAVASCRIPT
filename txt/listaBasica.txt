@@ -1,0 +1,57 @@
+var codigo = "00000"
+carrinho = []
+
+
+function geraCodigo() {
+    codigoThis = Number(codigo)
+    codigoThis++;
+    codigoThis = codigoThis.toString()
+    tam = 5 - codigoThis.length
+    codigo = ""
+    for (var i = 0; i < tam; i++) {
+        codigo += "0"
+    }
+    codigo += codigoThis
+
+
+
+    return codigo;
+}
+
+
+
+class Produto {
+    constructor(nome, preco, codigo) {
+        this.nome = nome;
+        this.preco = preco
+        this.codigo = codigo
+    }
+}
+
+class ProdutoInCarrinho extends Produto {
+    constructor(nome, preco, codigo, qtd) {
+        super(nome, preco, codigo)
+        this.qtd = qtd
+        this.preTotal = Number(this.preco) * Number(qtd)
+    }
+}
+
+
+listaBasica = {
+    comida: [
+        new Produto("sushi", 80, geraCodigo()),
+        new Produto("temaki", 15, geraCodigo()),
+        new Produto("Sashimi", 50, geraCodigo())
+    ],
+    bebida: [
+        new Produto("coca-cola", 5, geraCodigo()),
+        new Produto("pepsi", 5, geraCodigo()),
+        new Produto("agua", 2, geraCodigo())
+
+    ],
+    sobremesa: [
+        new Produto("harumaki", 12, geraCodigo()),
+        new Produto("bolo", 5, geraCodigo()),
+        new Produto("cockie", 4, geraCodigo())
+    ]
+}
