@@ -14,7 +14,7 @@ https://arthuralesi.github.io/StepCourse-2ndModule-Final-Project-JAVASCRIPT/
 Step Computer Academy is a presencial course having filials all around the glove  <br>
 Each module lasts 6 months and We studie a specific subject   <br>
 At this module, I have studied Javscript after studing Html/CSS.  <br>
-This is a simple solution. I haven't learned how to use cookies, servers or sessions.  <br>
+This is a simple solution. I haven't learned how to use cookies, servers or sessions. So i have used LocalStorage and SessionStorage  <br>
 So I just simulate a login. You can enter it with whatever "nickname" you want and put anything as a password too.  <br>
 Then it will take you to another page built in javascript. It simultes a Shopping Cart. You can dynamicaly choose the items and the finish your order.
 
