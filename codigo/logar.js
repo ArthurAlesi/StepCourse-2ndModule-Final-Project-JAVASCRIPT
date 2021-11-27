@@ -50,7 +50,7 @@ function logar() {
         //     window.alert("logou")
         salvarNome()
 
-        window.open("../projeto/projeto2.html", "_self")
+        window.open("../projeto2.html", "_self")
 
 
     } else {
