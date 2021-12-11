@@ -50,7 +50,7 @@ function logar() {
         //     window.alert("logou")
         salvarNome()
 
-        window.open("./projeto2.html", "_self")
+        window.open("/StepCourse-2ndModule-Final-Project-JAVASCRIPT/projeto2.html", "_self")
 
 
     } else {
