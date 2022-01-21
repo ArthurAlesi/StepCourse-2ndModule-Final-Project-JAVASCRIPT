@@ -14,26 +14,15 @@
 
     addItemAoCarrinhoLista(param)
 
-
-    // liCa = document.createElement("li")
-    // // strLi = "li" + 
-    // liCa.setAttribute("id", "li" + param)
-    // liCa.innerHTML = "teste " + param
-    // document.getElementById("listaCarrinho").appendChild(liCa)
-
     document.getElementById("divAside").innerHTML = "Total: R$" + getTotal()
 
 }
-
 
 function geraItemLista(qtd, nome, preco) {
     var total = preco * qtd
     var strItemDaLista = `${qtd}x ${nome} : ...... R$${total.toFixed(2)}`
     return strItemDaLista;
 }
-
-
-
 
 
 function mostrarTotalDivzinha(codeg) {
@@ -52,9 +41,6 @@ function mostrarTotalDivzinha(codeg) {
 
 
 
-
-
-
 function addItemAoCarrinhoLista(param) {
     //caracteristicas do produto
     caract = localStorage.getItem(param)
@@ -70,8 +56,6 @@ function addItemAoCarrinhoLista(param) {
     carrinho.push(new ProdutoInCarrinho(nome, preco, codi, desc, qtd))
 
 
-
-
     liCa = document.createElement("li")
         // strLi = "li" + 
     liCa.setAttribute("id", "li" + param)
@@ -79,12 +63,9 @@ function addItemAoCarrinhoLista(param) {
     document.getElementById("listaCarrinho").appendChild(liCa)
 
 
-
-
-
-
-
 }
+
+
 
 function removeItemDoCarrinhoLista(param) {
     var indi;
@@ -95,19 +76,7 @@ function removeItemDoCarrinhoLista(param) {
         }
     }
 
-
-
-
-
-
-
 }
-
-
-
-
-
-
 
 
 
@@ -135,8 +104,6 @@ function removerCarrinho(param) {
     var descTemp = "desc" + param
     document.getElementById(descTemp).appendChild(buttonAdiciona)
 
-
-
     document.getElementById("divAside").innerHTML = "Total: R$" + getTotal()
 }
 
@@ -153,52 +120,6 @@ function getTotal() {
 
 
 
-//var codigo = "00000"
-
-// function geraCodigo() {
-//     codigoThis = Number(codigo)
-//     codigoThis++;
-//     codigoThis = codigoThis.toString()
-//     tam = 5 - codigoThis.length
-//     codigo = ""
-//     for (var i = 0; i < tam; i++) {
-//         codigo += "0"
-//     }
-//     codigo += codigoThis
-
-
-
-//     return codigo;
-// }
-
-// class Produto {
-//     constructor(nome, preco) {
-//         this.nome = nome;
-//         this.preco = preco
-//         this.codigo = geraCodigo();
-//     }
-// }
-
-
-
-// listaBasica = {
-//     comida: [
-//         new Produto("sushi", 80),
-//         new Produto("temaki", 15),
-//         new Produto("Sashimi", 50)
-//     ],
-//     bebida: [
-//         new Produto("coca-cola", 5),
-//         new Produto("pepsi", 5),
-//         new Produto("agua", 2)
-
-//     ],
-//     sobremesa: [
-//         new Produto("harumaki", 12),
-//         new Produto("bolo", 5),
-//         new Produto("cockie", 4)
-//     ]
-// }
 
 
 if (localStorage.getItem("primeiraVez") == null) {
@@ -362,6 +283,7 @@ function procuraNome(param, total) {
 }
 
 
+
 function confirmar() {
     if (carrinho.length != 0) {
         var total = getTotal()
@@ -379,9 +301,11 @@ function confirmar() {
     }
 }
 
+
 function deslogar() {
     window.open("index.html", "_self")
 }
+
 
 
 
