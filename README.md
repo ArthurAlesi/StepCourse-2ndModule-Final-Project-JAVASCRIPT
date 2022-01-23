@@ -20,6 +20,7 @@ Then it will take you to another page built in javascript. It simultes a Shoppin
 
  
 <br>
+
 ### 1st You can choose whatever you want as a name
 <p>
  I put "Arthur" as a exemple. But it's just a test
